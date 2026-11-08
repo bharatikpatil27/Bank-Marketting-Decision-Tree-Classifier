@@ -1,0 +1,24 @@
+BANK MARKETING - DECISION TREE CLASSIFICATION
+==================================================
+
+Total records: 45211
+Training records: 36168
+Testing records: 9043
+Model accuracy: 89.84%
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.91      0.98      0.94      7985
+           1       0.64      0.30      0.41      1058
+
+    accuracy                           0.90      9043
+   macro avg       0.78      0.64      0.68      9043
+weighted avg       0.88      0.90      0.88      9043
+
+Confusion Matrix:
+[[7806  179]
+ [ 740  318]]
+
+Conclusion:
+A Decision Tree Classifier was trained to predict whether a bank customer would subscribe to a term deposit.
